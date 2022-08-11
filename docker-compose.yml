@@ -1,0 +1,10 @@
+version: '3.7'
+
+services:
+  web:
+    container_name: web
+    build: ./backend
+    ports:
+      - 8000:8000
+    volumes:
+      - ./backend:/app
