@@ -8,6 +8,11 @@ authors = ["riisatoro <riisa.toro@gmail.com>"]
 python = "^3.8"
 fastapi = "^0.79.0"
 uvicorn = "^0.18.2"
+Scrapy = "^2.6.2"
+celery = "^5.2.7"
+ipdb = "^0.13.9"
+ipython = "^8.4.0"
+black = "^22.6.0"
 
 [tool.poetry.dev-dependencies]
 
